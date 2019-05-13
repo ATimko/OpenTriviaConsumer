@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTriviaComsumer", "OpenTriviaComsumer\OpenTriviaComsumer.csproj", "{7EE52378-E275-4A34-98CF-4AA2154CF596}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenTriviaConsumer", "OpenTriviaComsumer\OpenTriviaConsumer.csproj", "{7EE52378-E275-4A34-98CF-4AA2154CF596}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

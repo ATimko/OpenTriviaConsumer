@@ -1,4 +1,4 @@
-﻿namespace OpenTriviaComsumer
+﻿namespace OpenTriviaConsumer
 {
     partial class Form1
     {
