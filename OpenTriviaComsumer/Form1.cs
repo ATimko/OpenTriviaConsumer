@@ -42,7 +42,9 @@ namespace OpenTriviaConsumer
 
                 foreach(TriviaCategory category in catResponse.trivia_categories)
                 {
-                    cboCategories.Items.Add(category.name);
+                    //sorts by name
+                    //cboCategories.Items.Add(category.name);
+                    cboCategories.Items.Add(category);
                 }
             }
         }
