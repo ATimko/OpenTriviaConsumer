@@ -33,10 +33,11 @@
             // 
             // cboCategories
             // 
+            this.cboCategories.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboCategories.FormattingEnabled = true;
             this.cboCategories.Location = new System.Drawing.Point(273, 73);
             this.cboCategories.Name = "cboCategories";
-            this.cboCategories.Size = new System.Drawing.Size(121, 21);
+            this.cboCategories.Size = new System.Drawing.Size(217, 21);
             this.cboCategories.TabIndex = 0;
             // 
             // Form1
