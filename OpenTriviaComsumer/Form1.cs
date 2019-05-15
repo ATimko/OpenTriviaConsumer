@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -32,7 +33,17 @@ namespace OpenTriviaConsumer
             {
                 // category = cats
                 string cats = await response.Content.ReadAsStringAsync();
-                MessageBox.Show(cats);
+
+                CategoryResponse catResponse = JsonConvert.DeserializeObject<CategoryResponse>(cats);
+
+                //MessageBox.Show(cats);
+
+                //List<TriviaCategory> categories = catResponse.trivia_categories;
+
+                foreach(TriviaCategory category in catResponse.trivia_categories)
+                {
+                    cboCategories.Items.Add(category.name);
+                }
             }
         }
     }
